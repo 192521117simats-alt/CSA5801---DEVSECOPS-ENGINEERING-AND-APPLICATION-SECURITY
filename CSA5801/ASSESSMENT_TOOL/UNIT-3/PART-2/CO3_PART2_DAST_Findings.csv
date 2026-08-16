@@ -1,0 +1,36 @@
+"Finding_ID","Endpoint","Method","Vulnerability","Severity","OWASP","Risk_Score"
+"DAST-F001","/comments","POST","Command Injection","Critical","A03: Injection",9.4
+"DAST-F002","/upload","POST","Insecure Direct Object Reference","High","A01: Access Control",8
+"DAST-F003","/login","POST","Open Redirect","Medium","A01: Access Control",5.7
+"DAST-F004","/products","GET","Cross-Site Scripting","High","A03: Injection",8.2
+"DAST-F005","/comments","POST","Cross-Site Scripting","High","A03: Injection",8.2
+"DAST-F006","/logout","POST","Directory Traversal","High","A01: Access Control",7.9
+"DAST-F007","/reports","GET","Information Disclosure","Medium","A01: Access Control",5.9
+"DAST-F008","/api/token","POST","Directory Traversal","High","A01: Access Control",7.9
+"DAST-F009","/profile","GET","Security Misconfiguration","Medium","A05: Misconfiguration",6.1
+"DAST-F010","/search","GET","Information Disclosure","Medium","A01: Access Control",5.9
+"DAST-F011","/logout","POST","Cross-Site Scripting","High","A03: Injection",8.2
+"DAST-F012","/api/token","POST","Information Disclosure","Medium","A01: Access Control",5.9
+"DAST-F013","/admin","GET","Session Fixation","High","A07: Authentication",7.8
+"DAST-F014","/register","POST","CSRF","High","A01: Access Control",7.5
+"DAST-F015","/payment","POST","Cross-Site Scripting","High","A03: Injection",8.2
+"DAST-F016","/users","GET","Security Misconfiguration","Medium","A05: Misconfiguration",6.1
+"DAST-F017","/logout","POST","Security Misconfiguration","Medium","A05: Misconfiguration",6.1
+"DAST-F018","/comments","POST","CSRF","High","A01: Access Control",7.5
+"DAST-F019","/feedback","POST","Insecure Direct Object Reference","High","A01: Access Control",8
+"DAST-F020","/login","POST","SQL Injection","Critical","A03: Injection",9.8
+"DAST-F021","/api/token","POST","Open Redirect","Medium","A01: Access Control",5.7
+"DAST-F022","/admin","GET","Information Disclosure","Medium","A01: Access Control",5.9
+"DAST-F023","/products","GET","Broken Authentication","High","A07: Authentication",8.5
+"DAST-F024","/register","POST","Information Disclosure","Medium","A01: Access Control",5.9
+"DAST-F025","/feedback","POST","Session Fixation","High","A07: Authentication",7.8
+"DAST-F026","/register","POST","Insecure Direct Object Reference","High","A01: Access Control",8
+"DAST-F027","/comments","POST","Information Disclosure","Medium","A01: Access Control",5.9
+"DAST-F028","/search","GET","Missing Security Headers","Low","A05: Misconfiguration",3.5
+"DAST-F029","/api/token","POST","Insecure Direct Object Reference","High","A01: Access Control",8
+"DAST-F030","/payment","POST","Information Disclosure","Medium","A01: Access Control",5.9
+"DAST-F031","/search","GET","SQL Injection","Critical","A03: Injection",9.8
+"DAST-F032","/users","GET","Open Redirect","Medium","A01: Access Control",5.7
+"DAST-F033","/api/token","POST","Directory Traversal","High","A01: Access Control",7.9
+"DAST-F034","/users","GET","Missing Security Headers","Low","A05: Misconfiguration",3.5
+"DAST-F035","/users","GET","Insecure Direct Object Reference","High","A01: Access Control",8
