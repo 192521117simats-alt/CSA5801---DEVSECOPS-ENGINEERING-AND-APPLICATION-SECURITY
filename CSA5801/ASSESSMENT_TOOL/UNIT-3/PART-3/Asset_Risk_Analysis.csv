@@ -1,0 +1,6 @@
+"Asset","Vulnerabilities","Critical","High","Average_Risk"
+"Database Server",21,4,6,23.9
+"API Gateway",15,2,2,19.39
+"Cloud Container",18,0,5,18.08
+"Web Server",18,3,4,17.71
+"Production Server",28,2,2,13.12

@@ -1,0 +1,5 @@
+"Severity","Total","Open","In_Progress","Resolved","Average_CVSS","Average_Risk"
+"Low",31,11,12,8,2.98,8.8
+"Medium",39,20,9,10,5.39,18.66
+"High",19,11,7,1,8.03,20.45
+"Critical",11,3,6,2,9.48,37.77
