@@ -1,0 +1,44 @@
+====================================================
+GATEKEEPERX MODULE 5
+COMPARISON REPORT
+====================================================
+
+Approaches Compared:
+
+1. FCFS - First Come First Served
+2. Static Priority Queue
+3. GatekeeperX Dynamic Priority Queue
+
+----------------------------------------------------
+PERFORMANCE COMPARISON
+----------------------------------------------------
+
+         Approach Average_Waiting_Time Maximum_Waiting_Time Average_Turnaround_Time Maximum_Turnaround_Time
+1            FCFS              1055.18              2068.21                 1059.76                 2071.66
+2 Static Priority              1125.45              4478.31                 1130.03                 4484.11
+3     GatekeeperX              1055.63              2068.21                 1060.21                 2071.66
+  Average_Queue_Length Maximum_Queue_Length Throughput_Jobs_Per_Hour Server_Utilization_Percent
+1               229.70                  454                     13.1                        100
+2               245.48                  479                     13.1                        100
+3               229.92                  454                     13.1                        100
+  Critical_Average_Waiting High_Average_Waiting Overall_Rank_Score
+1                  1200.83              1015.44                  5
+2                     3.54                 9.86                 11
+3                  1192.52              1012.95                  8
+
+----------------------------------------------------
+IMPROVEMENTS
+----------------------------------------------------
+
+GatekeeperX vs FCFS: -0.04 % waiting-time improvement
+GatekeeperX vs Static Priority: 6.2 % waiting-time improvement
+Critical jobs vs FCFS: 0.69 % improvement
+Critical jobs vs Static Priority: -33555.23 % improvement
+
+GatekeeperX Score: 0 %
+Overall Winner: FCFS 
+
+Conclusion:
+The comparison shows that the selected baseline approach performed better on the combined metrics for this particular workload. GatekeeperX should therefore be further tuned using different aging factors and workload conditions.
+
+====================================================
