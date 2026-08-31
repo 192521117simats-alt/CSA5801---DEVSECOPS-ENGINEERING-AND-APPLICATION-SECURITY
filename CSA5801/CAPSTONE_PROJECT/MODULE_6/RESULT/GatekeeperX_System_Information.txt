@@ -1,0 +1,29 @@
+GATEKEEPERX - ADVANCED SYSTEM ARCHITECTURE
+
+INPUT LAYER
+Developer commits source code to the repository.
+
+CI/CD LAYER
+The CI pipeline builds the application and executes automated tests.
+
+SECURITY SCANNING LAYER
+SAST identifies static source code vulnerabilities.
+DAST identifies runtime and application weaknesses.
+SCA identifies vulnerable dependencies.
+Secret Detection identifies exposed credentials.
+
+RESULT AGGREGATION LAYER
+Security findings are combined into a unified security dataset.
+
+GATEKEEPERX INTELLIGENT ENGINE
+Security data is analysed.
+Risk is calculated.
+Priority is calculated.
+Jobs are processed through an intelligent priority queue.
+Dynamic aging increases the priority of waiting jobs.
+The system prevents queue starvation.
+
+DECISION LAYER
+PASS: Application deployment is approved.
+WAIT: Application is prioritised for review.
+BLOCK: Developer fixes security issues and performs rescanning.
